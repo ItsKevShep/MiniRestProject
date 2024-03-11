@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <CUSTOMERS id='2' reference='xyz' name='Customer One' address_one='somewhere' address_two='somewhere' town='a town' county='a county' country='a country' postcode='postcode'/>
+    <CUSTOMERS id='3' reference='abc' name='Customer Two' address_one='somewhere' address_two='somewhere' town='a town' county='a county' country='a country' postcode='postcode'/>
+    <CUSTOMERS id='4' reference='123' name='Customer Three' address_one='somewhere' address_two='somewhere' town='a town' county='a county' country='a country' postcode='postcode'/>
+</dataset>
