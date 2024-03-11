@@ -2,6 +2,9 @@ This Maven project has been created with 3 modules, each of which handle a speci
 repo can be provided but with the logic for the various requirements handled in their own project, and meant that one project could be used to 
 create the executable jar and another as a Spring Boot application.
 
+The project can be built by running "mvn clean install" from the project root, however 2 helper bat files are provided to handle both starting the 
+Spring Boot server and sending data to it (see the last section for info).
+
 # Modules
 
 ## csv-rest-endpoint-api
