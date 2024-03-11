@@ -17,9 +17,10 @@ to a client.
 
 ## csv-rest-endpoint
 This module provides a Spring Boot server exposing three endpoints that can be used to communicate with it.
-	- / GET : This can be used to retrieve all customer data
-	- /{reference} GET : This can be used to retrieve data for a specified customer (Returning a 400 if no customer exists with that record)
-	- / POST : This can be used to add a new customer to the database.
+
+- / GET : This can be used to retrieve all customer data
+ - /{reference} GET : This can be used to retrieve data for a specified customer (Returning a 400 if no customer exists with that record)
+ - / POST : This can be used to add a new customer to the database.
 	
 H2 is used as the internal memory database, so if the application is stopped and restarted, all data will be lost.
 
